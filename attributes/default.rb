@@ -72,6 +72,10 @@ default['nginx']['gzip_types']        = %w[
                                           application/javascript
                                           application/json
                                           text/mathml
+                                          font/ttf
+                                          font/opentype
+                                          application/vnd.ms-fontobject
+                                          image/svg+xml
                                         ]
 default['nginx']['gzip_min_length']   = 1_000
 default['nginx']['gzip_disable']      = 'MSIE [1-6]\.'
