@@ -87,7 +87,7 @@ default['nginx']['worker_connections']   = 1_024
 default['nginx']['worker_rlimit_nofile'] = nil
 default['nginx']['multi_accept']         = false
 default['nginx']['event']                = nil
-default['nginx']['server_tokens']        = nil
+default['nginx']['server_tokens']        = 'off'
 default['nginx']['server_names_hash_bucket_size'] = 64
 default['nginx']['sendfile'] = 'on'
 
